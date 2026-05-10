@@ -9,10 +9,10 @@
 }
 
 body {
-    font-family: 'Onest', sans-serif;
-    background: linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.8)),url("gradient.jpg");
+    background: linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.8)), url("./gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    color: white;
 }
 
 .navbar {
@@ -70,7 +70,7 @@ body {
     align-items: center;
     padding: 80px 60px;
     min-height: 100vh;
-    background: linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.8)),url("gradient.jpg");
+    background: linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.8)), url("gradient.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -168,7 +168,7 @@ body {
 /* ABOUT SECTION */
 .about {
     padding: 200px 60px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),url("gradient.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url("gradient.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -534,7 +534,7 @@ html {
 /* CONTACTS */
 
 .contacts {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),url("gradient.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url("gradient.jpg");
     background-size: cover;
     padding: 200px 60px;
     min-height: 100vh;
