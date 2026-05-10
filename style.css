@@ -303,11 +303,18 @@ html {
 /*skills and experience background*/
 .skills,
 .experience {
+
     padding: 200px 60px;
     min-height: 100vh;
-    background: linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.8)), url("gradient.jpg");
+
+    background:
+    linear-gradient(rgba(10,0,20,0.3), rgba(0,0,0,0.4)),
+    url("./gradient.jpg");
+
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* SKILLS */
