@@ -22,7 +22,6 @@ body{
     overflow-x:hidden;
 }
 
-/* ================= NAVBAR ================= */
 
 .navbar{
     position:fixed;
@@ -73,7 +72,6 @@ body{
     color:#b57cff;
 }
 
-/* ================= GLOBAL SECTIONS ================= */
 
 section{
     position:relative;
@@ -96,7 +94,7 @@ section{
     background-repeat:no-repeat;
 }
 
-/* ================= HOME ================= */
+
 
 .home{
     min-height:120vh;
@@ -116,7 +114,7 @@ section{
 }
 
 .content{
-    max-width:650px;
+    max-width:450px;
 }
 
 .badge{
@@ -217,7 +215,6 @@ section{
     0 0 25px rgba(181,124,255,0.5);
 }
 
-/* ================= TITLES ================= */
 
 .about-title,
 .skills-title,
@@ -243,7 +240,6 @@ section{
     margin-bottom:70px;
 }
 
-/* ================= ABOUT ================= */
 
 .about-wrapper{
     max-width:1200px;
@@ -352,7 +348,6 @@ section{
     color:#b57cff;
 }
 
-/* ================= SKILLS ================= */
 
 .skills-wrapper{
     max-width:1200px;
@@ -464,7 +459,6 @@ section{
     font-size:16px;
 }
 
-/* ================= EXPERIENCE ================= */
 
 .exp-wrapper{
     position:relative;
@@ -567,7 +561,6 @@ section{
     color:#ddd;
 }
 
-/* ================= CONTACT ================= */
 
 .contact-grid{
     display:grid;
@@ -740,7 +733,6 @@ section{
     gap:10px;
 }
 
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:992px){
 
