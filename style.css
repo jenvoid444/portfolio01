@@ -203,8 +203,8 @@ section{
 }
 
 .profile img{
-    width:430px;
-    height:430px;
+    width:300px;
+    height:300px;
 
     border-radius:50%;
     object-fit:cover;
