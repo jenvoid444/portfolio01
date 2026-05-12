@@ -10,19 +10,6 @@ html{
     scroll-behavior:smooth;
 }
 
-body{
-    font-family:'Onest', sans-serif;
-    background:
-    linear-gradient(rgba(10,0,20,0.7), rgba(0,0,0,0.9)),
-    url("gradient.jpg");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    color:white;
-    overflow-x:hidden;
-}
-
-
 .navbar {
     position: fixed;
     top: 0.10px;
@@ -48,30 +35,28 @@ body{
     font-weight: 800;
     margin-bottom: 10px;
 }
-.logo{
-    font-size:42px;
-    font-weight:800;
-    color:#b57cff;
+
+.logo {
+    color: #b57cff;
+    font-weight: 700;
 }
 
-.nav-links{
-    display:flex;
-    gap:45px;
-    list-style:none;
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
 }
 
-.nav-links a{
-    text-decoration:none;
-    color:white;
-    font-size:14px;
-    font-weight:600;
-    transition:.3s;
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
 }
 
-.nav-links a:hover{
-    color:#b57cff;
+.nav-links a:hover {
+    color: #b57cff;
 }
-
 
 section{
     position:relative;
